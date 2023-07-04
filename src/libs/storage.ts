@@ -26,6 +26,7 @@ export interface StoragePlantProps {
 
 export async function savePlant(plant: PlantProps): Promise<void> {
   try {
+    console.log("PLANTA", plant);
     const nextTime = new Date(plant.dateTimeNotification);
     const now = new Date();
 

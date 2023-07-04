@@ -91,8 +91,7 @@ export function PlantSave() {
           </Text>
 
           {showDatePicker && (
-            <DateTimePicker 
-              is24Hour={true}
+            <DateTimePicker
               value={selectedDateTime}
               mode="time"
               display="spinner"
